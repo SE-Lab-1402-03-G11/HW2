@@ -13,5 +13,9 @@ public class PhoneOrderService implements OrderService{
     public void onSiteOrderPayment(int foodPrice) {
         //Empty Body!
     }
+    @Override
+    public void onlineOrderPayment(int foodPrice) {
+        //Empty Body!
+    }
 
 }
