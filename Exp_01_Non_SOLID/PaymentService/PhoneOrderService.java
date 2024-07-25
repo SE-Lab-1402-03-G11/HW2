@@ -9,4 +9,9 @@ public class PhoneOrderService implements OrderService{
     public void onlineOrderRegister(String customerName) {
         //Empty Body!
     }
+    @Override
+    public void onSiteOrderPayment(int foodPrice) {
+        //Empty Body!
+    }
+
 }
