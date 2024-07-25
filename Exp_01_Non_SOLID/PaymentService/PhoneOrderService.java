@@ -5,4 +5,8 @@ public class PhoneOrderService implements OrderService{
     public void onSiteOrderRegister(String customerName) {
         //Empty Body!
     }
+    @Override
+    public void onlineOrderRegister(String customerName) {
+        //Empty Body!
+    }
 }
